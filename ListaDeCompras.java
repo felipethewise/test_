@@ -13,25 +13,25 @@ public class ListaDeCompras {
 		System.out.println("Adicione um item à lista: ");
 		Scanner scanner = new Scanner(System.in);
 		String item01add = scanner.nextLine();
-			//Mensagem para o usuario
+			// Mensagem para o usuario
 		System.out.println("Item adicionado!");
 		
 		System.out.println("Adicione mais um item à lista: ");
 		Scanner scanner2 = new Scanner(System.in);
 		String item02add = scanner2.nextLine();
-			//Mensagem para o usuario
+			// Mensagem para o usuario
 		System.out.println("Item adicionado!");
 		
 		System.out.println("Adicione mais um item à lista: ");
 		Scanner scanner3 = new Scanner(System.in);
 		String item03add = scanner3.nextLine();
-			//Mensagem para o usuario
+			// Mensagem para o usuario
 		System.out.println("Item adicionado!");
 		
 		System.out.println("Adicione mais um item à lista: ");
 		Scanner scanner4= new Scanner(System.in);
 		String item04add = scanner4.nextLine();
-			//Mensagem para o usuario
+			// Mensagem para o usuario
 		System.out.println("Item adicionado!");
 		// Lista com os novos itens adicionados
 		ArrayList<String> Lista = new ArrayList<>();
@@ -44,7 +44,7 @@ public class ListaDeCompras {
 		System.out.println("Lista de Compras: "+Lista);
 		System.out.println("Número total de itens na lista: "+Lista.size());
 		
-		//Fechando o Scanner
+		// Fechando o Scanner
 		scanner.close();
 		scanner2.close();
 		scanner3.close();
